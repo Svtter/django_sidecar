@@ -19,10 +19,10 @@ Give a request client.
 
 ## Record every request
 
-Record every request.
+> Record every request.
 
 记录每一个请求用于链路溯源
 
 ## Proxy
 
-通过 Proxy 允许远程访问
+> 通过 Proxy 允许远程访问

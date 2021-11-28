@@ -1,17 +1,28 @@
-# Welcome to MkDocs
+# Welcome to Django sidebar
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+No commands for now.
+
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<!-- mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files. -->
+
+    ├── README.md
+    ├── django_sidecar          # main source
+    │   ├── __init__.py
+    │   └── tests
+    ├── docs                    # document
+    │   ├── docs
+    │   └── mkdocs.yml
+    ├── scripts                 # convinent script
+    │   └── docs.sh
+    ├── setup.py
+    ├── tests
+        └── __init__.py
